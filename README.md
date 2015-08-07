@@ -43,9 +43,7 @@ Only data from the dates 2007-02-01 and 2007-02-02 will be used to create the pl
 ## Making Plots
 
 The overall goal here was simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
-reconstruct the following plots below, all of which were constructed
-using the base plotting system.
+varies over a 2-day period in February, 2007. The plots are already available in this repo, and can easily be reproduced by running the R-scripts.
 
 The plot[1-4].png are created by running the scripts plot[1-4].R respectively.
 Each plot will have a width of 480 and a height of 480 and be in the PNG format.
