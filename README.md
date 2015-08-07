@@ -1,4 +1,4 @@
-# README for assignment 1 of Exploratory Data Analysis
+# Assignment 1 of Exploratory Data Analysis
 
 ## Introduction
 
