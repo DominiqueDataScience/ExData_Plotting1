@@ -49,6 +49,7 @@ The plot[1-4].png are created by running the scripts plot[1-4].R respectively.
 Each plot will have a width of 480 and a height of 480 and be in the PNG format.
 
 All that needs to be done is:
+
     1. Start R console
     2. Make sure working directory is correct and contains the required files
     3. Execute following commands:
