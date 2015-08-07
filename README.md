@@ -1,3 +1,5 @@
+# README for assignment 1 of Exploratory Data Analysis
+
 ## Introduction
 
 This assignment uses data from
@@ -35,54 +37,35 @@ web site</a>:
 
 ## Loading the data
 
-When loading the dataset into R, please consider the following:
-
-* The dataset has 2,075,259 rows and 9 columns. First
-calculate a rough estimate of how much memory the dataset will require
-in memory before reading into R. Make sure your computer has enough
-memory (most modern computers should be fine).
-
-* We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
-
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
-
-* Note that in this dataset missing values are coded as `?`.
-
+When running the R-scripts, the data will be downloaded if necessary and loaded automatically.
+Only data from the dates 2007-02-01 and 2007-02-02 will be used to create the plots.
 
 ## Making Plots
 
-Our overall goal here is simply to examine how household energy usage
+The overall goal here was simply to examine how household energy usage
 varies over a 2-day period in February, 2007. Your task is to
 reconstruct the following plots below, all of which were constructed
 using the base plotting system.
 
-First you will need to fork and clone the following GitHub repository:
-[https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+The plot[1-4].png are created by running the scripts plot[1-4].R respectively.
+Each plot will have a width of 480 and a height of 480 and be in the PNG format.
+
+All that needs to be done is:
+1. Start R console
+2. Make sure working directory is correct and contains the required files
+3. Execute following commands:
+```{r eval=FALSE}    
+    source("./plot1.R")  # Or plot2.R, plot3.R, plot4.R
+    plot1()   # Or plot2(), plot3(), plot4()
+```
+Any needed/missing raw data will be automatically downloaded. If all the required data from `Individual household
+electric power consumption Data Set` is already available, then it will not be re-downloaded.
+
+Requirements for this script to be run:
+- `plot[1-4].R` scripts themselves
+- **R** (version 3.2.1)
 
 
-For each plot you should
-
-* Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.
-
-* Name each of the plot files as `plot1.png`, `plot2.png`, etc.
-
-* Create a separate R code file (`plot1.R`, `plot2.R`, etc.) that
-constructs the corresponding plot, i.e. code in `plot1.R` constructs
-the `plot1.png` plot. Your code file **should include code for reading
-the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
-
-* Add the PNG file and R code file to your git repository
-
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
 
 
 
